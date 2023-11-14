@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  padding: 20px;
+  margin: 20px 10px;
+
+}
+.project-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.5s ease;
+}
+.project-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px blue;
+  transform: scale(1.1);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+.btn {
+  display: inline-block;
+  color: green;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.btn:hover{
+  background-color: red;
+  color: black;
+}
+
+.phead {
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  .project-container{  
+  display:flex;
+  flex-direction:column;
+  }
+  .project-card{
+    width:250px;
+    margin:10px;
+    padding:20px;
+  }
+}
