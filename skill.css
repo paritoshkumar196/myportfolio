@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+.skill-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tech-skill h2 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.progress-bar {
+  background: #959595;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
+}
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+}
+.progress-bar div span {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #959595;
+  float: right;
+  margin-right: -20px;
+  margin-top: -15px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Html {
+  background-color: #e91e63;
+  animation: Html 1s linear forwards;
+}
+.CSS {
+  background-color: aqua;
+  animation: CSS 1s linear forwards;
+}
+.Js {
+  background-color: #00bcd4;
+  animation: Js 1s linear forwards;
+}
+.React {
+  background-color: orangered;
+  animation: React 1s linear forwards;
+}
+.Git {
+  background-color: blue;
+  animation: Git 1s linear forwards;
+}
+.Git-hub {
+  background-color: crimson;
+  animation: Git-hub 1s linear forwards;
+}
+
+@keyframes Html {
+  100% {
+    width: 95%;
+  }
+}
+@keyframes CSS {
+  100% {
+    width: 90%;
+  }
+}
+@keyframes Js {
+  100% {
+    width: 86%;
+  }
+}
+@keyframes React {
+  100% {
+    width: 50%;
+  }
+}
+@keyframes Git {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes Git-hub {
+  100% {
+    width: 80%;
+  }
+}
+
+.c1 {
+  background-color: #ff5733;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.c1 {
+  background-color: indigo;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.c2 {
+  background-color: blue;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.c3 {
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.c4 {
+  background-color: crimson;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.c5 {
+  background-color: orange;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.c6 {
+  background-color: aqua;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+
+.technical-skill {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.7vw;
+  color: #000;
+  font-weight: 800;
+}
+.professional-skill {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.7vw;
+  color: #000;
+  font-weight: 800;
+}
+.prof-skill ul li {
+  transition: 0.5s ease-out;
+  margin-bottom: 10px;
+}
+.prof-skill ul li:hover {
+  /* border: 2px solid aqua; */
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px aqua;
+}
+
+@media only screen and (max-width: 768px) {
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.progress-bar {
+  width: 300px;
+}
+.technical-skill,
+.professional-skill {
+  font-size: 5vw;
+  text-align: center;
+}
+.prof-skill ul li {
+  margin-bottom: 10px;
+}
+.tech-skill h2{
+  color:#000
+}
+.prof-skill ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prof-skill ul li {
+  margin-bottom: 10px;
+  width: 30%; 
+  margin-inline: 10px;
+}
+}
